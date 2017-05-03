@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  font-family: 'Quicksand', sans-serif; }
+
+nav {
+  font-family: 'Bungee Inline', cursive;
+  width: 100%;
+  display: flex;
+  background-color: #00033E;
+  flex-wrap: wrap;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    nav ul a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+      display: block;
+      margin: 10px; }
+      nav ul a:hover {
+        color: #00598D;
+        text-decoration: none; }
+      nav ul a:hover li {
+        background-color: white;
+        transition: 0.2s; }
+      nav ul a li {
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        list-style: none;
+        background-color: #00598D;
+        transition: 0.2s; }
+
+h1 {
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  color: white; }
+
+#timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+  #timeline .timelineMessage {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    #timeline .timelineMessage .auteur {
+      width: 100%;
+      background-color: #050072;
+      padding: 15px;
+      color: white;
+      font-size: 1.3em;
+      font-weight: bolder; }
+    #timeline .timelineMessage .message {
+      width: 100%;
+      background-color: white;
+      padding: 15px;
+      color: #050072;
+      font-size: 1.2em; }
+    #timeline .timelineMessage .V {
+      background-color: #64FF00;
+      color: white;
+      font-size: 1.3em;
+      font-weight: bolder; }
+
+#titre {
+  text-align: center;
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter; }
+
+#description {
+  color: white;
+  font-size: 1.3em;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px; }
+
+h2 {
+  text-align: center;
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  color: white; }
+
+form {
+  margin-left: 25%;
+  width: 50%; }
+  form input {
+    margin: 10px; }
