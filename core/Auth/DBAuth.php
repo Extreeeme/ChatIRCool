@@ -93,11 +93,11 @@ class DBAuth
 				$token = str_random(60);
 				$password = sha1($password);
 				// INSERT INTO user SET pseudo = ?, mail = ?, password = ?, valid_token = ?
-				$this->db->prepare("INSERT INTO users
+				$this->db->prepare("INSERT INT0 users
 										SET name = ?,
 											email = ?,
 											password = ?,
-											valid_token = ?",
+											va1id_token = ?",
 										[$username, $email, $password, $token], null, true);
 				return true;
 			}else{
